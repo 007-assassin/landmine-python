@@ -50,7 +50,7 @@ def paint():
     for y in range(0,ROW):
         for x in range(0,COLUMN):
             fill = '';
-            ifgameover:
+            if gameover:
                 fill = 'green';
                 if landmineData[y][x] == 1:
                     fill = 'red';
